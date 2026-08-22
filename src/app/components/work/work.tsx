@@ -1,7 +1,7 @@
 export function Work() {
   return (
     <section className='flex flex-col gap-5'>
-      <h3 className='text-mauve-950 font-medium'>Work</h3>
+      <h3 className='text-mauve-950 dark:text-white font-medium'>Work</h3>
       <p className='text-balance leading-normal'>
         While I&apos;m building this section,{' '}
         <a className='link' href='https://github.com/arthurotaviano' target='_blank'>

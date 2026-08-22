@@ -1,5 +1,7 @@
 export function Footer() {
   return (
-    <footer className='text-mauve-400 text-sm'>Arthur Otaviano – {new Date().getFullYear()}</footer>
+    <footer className='text-mauve-400 dark:text-mauve-500 text-sm'>
+      Arthur Otaviano – {new Date().getFullYear()}
+    </footer>
   )
 }

@@ -1,21 +1,27 @@
 @import 'tailwindcss';
 
+@custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
+
+:root {
+  color-scheme: light;
+}
+
+[data-theme='dark'] {
+  color-scheme: dark;
+}
+
 @theme inline {
   --font-sans: var(--font-geist-sans);
 }
 
 @layer base {
-  ::selection {
-    @apply bg-mauve-200 text-mauve-950;
-  }
-
   :focus-visible {
-    @apply outline-mauve-950 outline-2 outline-offset-1;
+    @apply outline-mauve-950 dark:outline-white outline-2 outline-offset-1;
   }
 }
 
 @layer components {
   .link {
-    @apply text-mauve-950 underline underline-offset-4 decoration-1 decoration-mauve-400 hover:decoration-mauve-950;
+    @apply text-mauve-950 dark:text-white underline underline-offset-4 decoration-1 decoration-mauve-400 dark:decoration-mauve-500 hover:decoration-mauve-950 dark:hover:decoration-white;
   }
 }
