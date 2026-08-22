@@ -16,6 +16,6 @@
 
 @layer components {
   .link {
-    @apply text-mauve-950 underline decoration-mauve-400 hover:decoration-mauve-950 underline-offset-4;
+    @apply text-mauve-950 underline underline-offset-4 decoration-1 decoration-mauve-400 hover:decoration-mauve-950;
   }
 }
