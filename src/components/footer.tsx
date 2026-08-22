@@ -1,3 +1,3 @@
 export function Footer() {
-  return <footer>Arthur Otaviano – {new Date().getFullYear()}</footer>
+  return <footer className='text-sm'>Arthur Otaviano – {new Date().getFullYear()}</footer>
 }
