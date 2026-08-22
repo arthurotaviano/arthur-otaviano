@@ -1,3 +1,4 @@
+import { Header } from '@/components/header'
 import type { Metadata } from 'next'
 import { Geist } from 'next/font/google'
 import './globals.css'
@@ -34,6 +35,7 @@ export default function RootLayout({ children }: LayoutProps<'/'>) {
     <html lang='en' className={`${geistSans.variable} antialiased`}>
       <body className='bg-white font-sans text-mauve-500 text-sm'>
         <div className='flex flex-col gap-12 mx-auto w-full max-w-xl pt-6 md:pt-12 pb-12 px-4 md:px-6'>
+          <Header />
           {children}
         </div>
       </body>
