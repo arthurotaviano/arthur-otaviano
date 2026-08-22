@@ -9,7 +9,7 @@ export function Header() {
         alt='Arthur Otaviano'
       />
       <div className='flex flex-col'>
-        <h1 className='font-medium text-mauve-950 text-base'>Arthur Otaviano</h1>
+        <h1 className='font-medium text-mauve-950 text-[17px]'>Arthur Otaviano</h1>
         <h2>Front-End Developer</h2>
       </div>
     </header>
