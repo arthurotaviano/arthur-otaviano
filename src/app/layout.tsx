@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<'/'>) {
   return (
     <html lang='en' className={`${geistSans.variable} antialiased`}>
-      <body className='bg-white font-sans text-mauve-500 text-[15px]'>
+      <body className='bg-white font-sans text-mauve-500 text-[15px] md:text-base'>
         <div className='flex flex-col gap-12 mx-auto w-full max-w-xl pt-6 md:pt-12 pb-12 px-4 md:px-6'>
           <Header />
           <main>{children}</main>
