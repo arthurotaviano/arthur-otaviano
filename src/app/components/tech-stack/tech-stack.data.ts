@@ -17,40 +17,13 @@ interface TechProps {
 }
 
 export const stack: TechProps[] = [
-  {
-    name: 'React',
-    icon: SiReact,
-  },
-  {
-    name: 'Next.js',
-    icon: SiNextdotjs,
-  },
-  {
-    name: 'TypeScript',
-    icon: SiTypescript,
-  },
-  {
-    name: 'JavaScript',
-    icon: SiJavascript,
-  },
-  {
-    name: 'HTML',
-    icon: SiHtml5,
-  },
-  {
-    name: 'CSS',
-    icon: SiCss,
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: SiTailwindcss,
-  },
-  {
-    name: 'Git',
-    icon: SiGit,
-  },
-  {
-    name: 'Vercel',
-    icon: SiVercel,
-  },
+  { name: 'React', icon: SiReact },
+  { name: 'Next.js', icon: SiNextdotjs },
+  { name: 'TypeScript', icon: SiTypescript },
+  { name: 'JavaScript', icon: SiJavascript },
+  { name: 'HTML', icon: SiHtml5 },
+  { name: 'CSS', icon: SiCss },
+  { name: 'Tailwind CSS', icon: SiTailwindcss },
+  { name: 'Git', icon: SiGit },
+  { name: 'Vercel', icon: SiVercel },
 ]
