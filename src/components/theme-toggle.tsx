@@ -35,7 +35,7 @@ export function ThemeToggle() {
 
   return (
     <button
-      className='fixed right-4 bottom-4 z-9999 flex justify-center items-center rounded-full border border-mauve-950 dark:border-white w-9 h-9 p-2 text-mauve-950 dark:text-white cursor-pointer transform-none active:scale-90 transition-transform'
+      className='fixed right-4 bottom-4 z-9999 flex justify-center items-center rounded-full border border-mauve-950 dark:border-white bg-white dark:bg-mauve-950 w-9 h-9 p-2 text-mauve-950 dark:text-white cursor-pointer transform-none active:scale-90 transition-transform'
       type='button'
       aria-label={`Color theme: ${current.label}. Switch to ${next.label}.`}
       onClick={() => setTheme(next.value)}
