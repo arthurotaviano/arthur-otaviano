@@ -11,7 +11,7 @@ import {
   SiVercel,
 } from 'react-icons/si'
 
-interface TechProps {
+type TechProps = {
   name: string
   icon: IconType
 }

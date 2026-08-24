@@ -1,4 +1,4 @@
-interface LinksProps {
+type LinksProps = {
   label: string
   url: string
   target?: '_blank'
