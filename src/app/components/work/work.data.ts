@@ -7,14 +7,9 @@ export type ProjectProps = {
 
 export const projects: ProjectProps[] = [
   {
-    name: 'Project Name #1',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum harum et.',
-    liveUrl: '#',
-    repoUrl: '#',
-  },
-  {
-    name: 'Project Name #2',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum harum et.',
-    repoUrl: '#',
+    name: 'Larissa Machado',
+    description: 'Sr Graphic Designer portfolio.',
+    liveUrl: 'https://www.larissamachado.com.br/',
+    repoUrl: 'https://github.com/arthurotaviano/larissa-machado',
   },
 ]
