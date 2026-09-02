@@ -27,4 +27,4 @@ export const links: LinkProps[] = [
     url: '/arthur-otaviano-resume.pdf',
     download: 'Arthur Otaviano - Resume.pdf',
   },
-] as const
+]

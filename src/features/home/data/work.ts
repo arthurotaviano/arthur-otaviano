@@ -14,4 +14,4 @@ export const projects: ProjectProps[] = [
     liveUrl: 'https://www.larissamachado.com.br/',
     repoUrl: `${CONTACT_LINKS.github}/larissa-machado`,
   },
-] as const
+]
