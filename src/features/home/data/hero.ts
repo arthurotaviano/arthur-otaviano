@@ -1,13 +1,13 @@
 import { CONTACT_LINKS } from '@/constants/contact'
 
-type LinksProps = {
+type LinkProps = {
   label: string
   url: string
   target?: '_blank'
   download?: string
 }
 
-export const links: LinksProps[] = [
+export const links: LinkProps[] = [
   {
     label: 'GitHub',
     url: CONTACT_LINKS.github,
@@ -27,4 +27,4 @@ export const links: LinksProps[] = [
     url: '/arthur-otaviano-resume.pdf',
     download: 'Arthur Otaviano - Resume.pdf',
   },
-]
+] as const

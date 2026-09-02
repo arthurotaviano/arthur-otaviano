@@ -1,6 +1,6 @@
 import { CONTACT_LINKS } from '@/constants/contact'
 
-export type ProjectProps = {
+type ProjectProps = {
   name: string
   description: string
   liveUrl?: string
@@ -14,4 +14,4 @@ export const projects: ProjectProps[] = [
     liveUrl: 'https://www.larissamachado.com.br/',
     repoUrl: `${CONTACT_LINKS.github}/larissa-machado`,
   },
-]
+] as const

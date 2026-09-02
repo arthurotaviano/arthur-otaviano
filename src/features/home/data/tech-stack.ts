@@ -26,4 +26,4 @@ export const stack: TechProps[] = [
   { name: 'Tailwind CSS', icon: SiTailwindcss },
   { name: 'Git', icon: SiGit },
   { name: 'Vercel', icon: SiVercel },
-]
+] as const
