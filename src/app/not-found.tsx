@@ -4,16 +4,8 @@ import { LuChevronLeft } from 'react-icons/lu'
 
 const title = 'Page Not Found · Arthur Otaviano'
 const description = 'The page you’re looking for can’t be found.'
-const url =
-  process.env.NEXT_PUBLIC_SITE_URL ??
-  (process.env.VERCEL_PROJECT_PRODUCTION_URL
-    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
-    : process.env.VERCEL_URL
-      ? `https://${process.env.VERCEL_URL}`
-      : 'http://localhost:3000')
-
 export const metadata: Metadata = {
-  metadataBase: new URL(url),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL!),
   title,
   description,
   openGraph: {
