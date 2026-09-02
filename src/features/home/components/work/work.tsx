@@ -1,3 +1,4 @@
+import { CONTACT_LINKS } from '@/constants/contact'
 import { LuGlobe } from 'react-icons/lu'
 import { SiGithub } from 'react-icons/si'
 import { projects } from './work.data'
@@ -48,11 +49,11 @@ export function Work() {
       </ul>
       <p className='text-balance leading-normal'>
         While I&apos;m building this section,{' '}
-        <a className='link' href='https://github.com/arthurotaviano' target='_blank'>
+        <a className='link' href={CONTACT_LINKS.github} target='_blank'>
           check my GitHub
         </a>{' '}
         to catch up on what I&apos;ve been working on lately. Also, feel free to{' '}
-        <a className='link' href='mailto:arthurotavianodev@gmail.com' target='_blank'>
+        <a className='link' href={CONTACT_LINKS.email} target='_blank'>
           reach out
         </a>{' '}
         anytime!

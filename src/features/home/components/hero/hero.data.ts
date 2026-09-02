@@ -1,3 +1,5 @@
+import { CONTACT_LINKS } from '@/constants/contact'
+
 type LinksProps = {
   label: string
   url: string
@@ -8,17 +10,17 @@ type LinksProps = {
 export const links: LinksProps[] = [
   {
     label: 'GitHub',
-    url: 'https://github.com/arthurotaviano',
+    url: CONTACT_LINKS.github,
     target: '_blank',
   },
   {
     label: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/arthurotaviano/',
+    url: CONTACT_LINKS.linkedin,
     target: '_blank',
   },
   {
     label: 'Email',
-    url: 'mailto:arthurotavianodev@gmail.com',
+    url: CONTACT_LINKS.email,
   },
   {
     label: 'Resume',
