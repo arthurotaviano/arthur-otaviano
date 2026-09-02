@@ -14,10 +14,8 @@ const geistSans = Geist({
 const title = 'Arthur Otaviano | Front-End Developer'
 const description =
   'Front-End Developer with 10+ years of experience building modern websites and web applications, currently with React, Next.js, and TypeScript. Focused on performance, accessibility, SEO, responsive design, and user experience.'
-const url = process.env.NEXT_PUBLIC_SITE_URL!
-
 export const metadata: Metadata = {
-  metadataBase: new URL(url),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL!),
   title,
   description,
   openGraph: {
