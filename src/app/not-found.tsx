@@ -5,17 +5,12 @@ import { LuChevronLeft } from 'react-icons/lu'
 const title = 'Page Not Found · Arthur Otaviano'
 const description = 'The page you’re looking for can’t be found.'
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL!),
   title,
   description,
-  openGraph: {
-    title,
-    description,
-    url: '/',
-  },
+  openGraph: null,
 }
 
-export default function NotFoumd() {
+export default function NotFound() {
   return (
     <section className='flex flex-col items-start gap-5'>
       <h3 className='sr-only'>Page Not Found</h3>
