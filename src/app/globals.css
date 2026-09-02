@@ -16,7 +16,7 @@
 
 @layer base {
   :focus-visible {
-    @apply outline-mauve-950 dark:outline-white outline-2 outline-offset-1;
+    @apply outline-mauve-950 dark:outline-white outline-2 outline-offset-2;
   }
 }
 
