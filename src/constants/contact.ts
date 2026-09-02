@@ -1,11 +1,11 @@
-const CONTACT_INFO = {
-  githubURL: 'https://github.com/arthurotaviano',
-  linkedinURL: 'https://www.linkedin.com/in/arthurotaviano/',
-  emailAddress: 'arthurotavianodev@gmail.com',
+export const CONTACT_INFO = {
+  GITHUB_USERNAME: 'arthurotaviano',
+  LINKEDIN_USERNAME: 'arthurotaviano',
+  EMAIL_ADDRESS: 'arthurotavianodev@gmail.com',
 }
 
 export const CONTACT_LINKS = {
-  github: CONTACT_INFO.githubURL,
-  linkedin: CONTACT_INFO.linkedinURL,
-  email: `mailto:${CONTACT_INFO.emailAddress}`,
+  GITHUB: `https://github.com/${CONTACT_INFO.GITHUB_USERNAME}`,
+  LINKEDIN: `https://www.linkedin.com/in/${CONTACT_INFO.LINKEDIN_USERNAME}/`,
+  EMAIL: `mailto:${CONTACT_INFO.EMAIL_ADDRESS}`,
 }

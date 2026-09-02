@@ -49,11 +49,11 @@ export function Work() {
       </ul>
       <p className='text-balance leading-normal'>
         While I&apos;m building this section,{' '}
-        <a className='link' href={CONTACT_LINKS.github} target='_blank'>
+        <a className='link' href={CONTACT_LINKS.GITHUB} target='_blank'>
           check my GitHub
         </a>{' '}
         to catch up on what I&apos;ve been working on lately. Also, feel free to{' '}
-        <a className='link' href={CONTACT_LINKS.email} target='_blank'>
+        <a className='link' href={CONTACT_LINKS.EMAIL} target='_blank'>
           reach out
         </a>{' '}
         anytime!
