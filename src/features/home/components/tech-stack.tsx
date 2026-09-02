@@ -1,4 +1,4 @@
-import { stack } from './tech-stack.data'
+import { stack } from '../data/tech-stack'
 
 export function TechStack() {
   return (

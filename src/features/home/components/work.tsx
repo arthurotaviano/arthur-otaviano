@@ -1,7 +1,7 @@
 import { CONTACT_LINKS } from '@/constants/contact'
 import { LuGlobe } from 'react-icons/lu'
 import { SiGithub } from 'react-icons/si'
-import { projects } from './work.data'
+import { projects } from '../data/work'
 
 export function Work() {
   return (

@@ -1,4 +1,4 @@
-import { links } from './hero.data'
+import { links } from '../data/hero'
 
 export function Hero() {
   return (
