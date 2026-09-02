@@ -1,13 +1,13 @@
 import { CONTACT_LINKS } from '@/constants/contact'
 
-type LinkProps = {
+type HeroLinkProps = {
   label: string
   url: string
   target?: '_blank'
   download?: string
 }
 
-export const links: LinkProps[] = [
+export const links: HeroLinkProps[] = [
   {
     label: 'GitHub',
     url: CONTACT_LINKS.GITHUB,

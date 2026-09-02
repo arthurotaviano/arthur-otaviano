@@ -11,12 +11,12 @@ import {
   SiVercel,
 } from 'react-icons/si'
 
-type TechProps = {
+type HeroTechProps = {
   name: string
   icon: IconType
 }
 
-export const stack: TechProps[] = [
+export const stack: HeroTechProps[] = [
   { name: 'React', icon: SiReact },
   { name: 'Next.js', icon: SiNextdotjs },
   { name: 'TypeScript', icon: SiTypescript },

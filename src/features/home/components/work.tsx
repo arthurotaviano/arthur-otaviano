@@ -2,14 +2,14 @@ import { CONTACT_LINKS } from '@/constants/contact'
 import { LuGlobe } from 'react-icons/lu'
 import { SiGithub } from 'react-icons/si'
 
-type ProjectProps = {
+type WorkProjectProps = {
   name: string
   description: string
   liveUrl?: string
   repoUrl?: string
 }
 
-export const projects: ProjectProps[] = [
+export const projects: WorkProjectProps[] = [
   {
     name: 'Larissa Machado',
     description: 'Sr Graphic Designer portfolio.',
