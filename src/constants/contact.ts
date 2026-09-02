@@ -1,11 +1,11 @@
-export const CONTACT_INFO = {
-  github: 'https://github.com/arthurotaviano',
-  linkedin: 'https://www.linkedin.com/in/arthurotaviano/',
-  email: 'arthurotavianodev@gmail.com',
+const CONTACT_INFO = {
+  githubURL: 'https://github.com/arthurotaviano',
+  linkedinURL: 'https://www.linkedin.com/in/arthurotaviano/',
+  emailAddress: 'arthurotavianodev@gmail.com',
 } as const
 
 export const CONTACT_LINKS = {
-  email: `mailto:${CONTACT_INFO.email}`,
-  linkedin: CONTACT_INFO.linkedin,
-  github: CONTACT_INFO.github,
+  github: CONTACT_INFO.githubURL,
+  linkedin: CONTACT_INFO.linkedinURL,
+  email: `mailto:${CONTACT_INFO.emailAddress}`,
 } as const
